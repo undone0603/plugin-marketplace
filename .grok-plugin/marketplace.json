@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "authichain",
+      "description": "Check AuthiChain signed provenance records and QRON Living QR codes, and run a free EU Digital Product Passport readiness check, through AuthiChain's public MCP server. No account or API key.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/undone0603/authichain-grok-plugin.git",
+        "sha": "4931fdc5a9f71127917a81f760cbcfd675b944e3"
+      },
+      "homepage": "https://github.com/undone0603/authichain-grok-plugin",
+      "keywords": ["authichain", "authichain verify", "qron", "qron living qr", "authichain dpp"],
+      "domains": ["authichain.com", "qron.space"]
     }
   ]
 }

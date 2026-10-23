@@ -1,6 +1,30 @@
 {
   "version": 1,
   "plugins": {
+    "authichain": {
+      "sha": "4931fdc5a9f71127917a81f760cbcfd675b944e3",
+      "version": "0.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "authichain-verify",
+            "description": "Check an AuthiChain signed record, a QRON Living QR link, or run a DPP readiness check"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "authichain",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "authichain-verify",
+            "description": "Check an AuthiChain signed provenance record, a QRON Living QR code, or EU Digital Product Passport readiness with the…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
       "version": "1.1.2",
